@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { createRoot } from "react-dom/client";
 
-const API = "https://fastapi-auth-backend.onrender.com"; // replace with your backend URL
+const API = "https://fastapi-auth-backend-y31n.onrender.com"; // replace with your backend URL
 
 function App() {
   const [token, setToken] = useState(localStorage.getItem("token"));
